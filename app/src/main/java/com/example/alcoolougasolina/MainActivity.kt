@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // Recuperando o estado do percentual do savedInstanceState, se disponível
+        // Recuperando o estado do percentual do savedInstanceState, se disponível (teste)
         if (savedInstanceState != null) {
             percentual = savedInstanceState.getDouble("percentual")
         }
@@ -103,5 +103,6 @@ class MainActivity : AppCompatActivity() {
     override fun onSaveInstanceState(outState: Bundle) {
         outState.putDouble("percentual", percentual)
         super.onSaveInstanceState(outState)
+
     }
 }
