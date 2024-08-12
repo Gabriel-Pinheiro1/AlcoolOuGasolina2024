@@ -1,4 +1,11 @@
+
+
 <resources>
     <string name="app_name">Com qual combustível?</string>
     <string name="_75">75%</string>
+    <string name="title">Gasolina ou Álcool?</string>
+    <string name="txtGasolina">Preço da gasolina</string>
+    <string name="txtAlcool">Preço do álcool</string>
+    <string name="txtCalcular">Calcular</string>
+    <string name="txtResult">Ainda não sei qual é o melhor</string>
 </resources>

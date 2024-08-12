@@ -5,36 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#87C4CB"
-    android:backgroundTint="#87C4CB"
+    android:backgroundTint="#503D7A"
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="550dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginStart="3dp"
         android:layout_marginEnd="3dp"
         android:background="@drawable/rounded_layout"
-<<<<<<< Updated upstream
-        android:backgroundTint="?android:backgroundTint"
-=======
-        android:backgroundTint="@color/background"
->>>>>>> Stashed changes
+        android:backgroundTint="#CFF2D0"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+
         app:layout_constraintTop_toTopOf="parent">
+
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-<<<<<<< Updated upstream
-=======
             android:background="#9C27B0"
-            android:backgroundTint="@color/background"
->>>>>>> Stashed changes
+            android:backgroundTint="#CFF2D0"
             android:contentDescription="uma bomba de gasolina ilustrando o app"
             android:paddingVertical="10dp"
             android:textAlignment="center"
@@ -46,35 +41,19 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="10dp"
-            android:text="@string/title"
+            android:text="Gasolina ou Álcool?"
             android:textAlignment="center"
-<<<<<<< Updated upstream
-            android:textColor="#87C4CB"
-=======
-            android:textColor="@color/txtTitle"
->>>>>>> Stashed changes
-            android:textSize="25sp"
+            android:textColor="#144D14"
+            android:textSize="40sp"
             android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/edAlcool"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="30dp"
-            android:ems="10"
-            android:hint="Preço da gasolina"
-            android:inputType="numberDecimal" />
 
         <EditText
             android:id="@+id/edGasolina"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-<<<<<<< Updated upstream
-            android:hint="alcool"
-            android:inputType="numberDecimal" />
-=======
-            android:hint="@string/txtGasolina"
+            android:hint="Preço da gasolina"
+            android:textSize="30sp"
             android:inputType="numberDecimal"
             android:minHeight="48dp"
             android:textColor="#000000" />
@@ -84,55 +63,44 @@
             android:id="@+id/edAlcool"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="30sp"
             android:ems="10"
-            android:hint="@string/txtAlcool"
+            android:hint="Preço do álcool"
             android:inputType="numberDecimal"
             android:minHeight="48dp" />
->>>>>>> Stashed changes
 
         <Switch
             android:id="@+id/swPercentual"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="103dp"
+            android:layout_height="81dp"
             android:layout_gravity="right"
             android:layout_marginHorizontal="40dp"
-<<<<<<< Updated upstream
-            android:text="@string/_75" />
-=======
             android:minHeight="48dp"
             android:text="@string/_75"
-            android:textColor="@color/corSwitch"
-            android:thumbTint="@color/corSwitch"
-            android:trackTint="@color/corSwitch" />
->>>>>>> Stashed changes
+            android:textSize="25sp"
+            android:textColor="#696969"
+            android:thumbTint="#696969"
+            android:trackTint="#696969" />
 
         <Button
             android:id="@+id/btCalcular"
-            android:layout_width="wrap_content"
+            android:layout_width="268dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginVertical="20dp"
-<<<<<<< Updated upstream
-            android:backgroundTint="#CB584C"
-            android:text="Calcular" />
-=======
-            android:backgroundTint="@color/corCalcular"
-            android:text="@string/txtCalcular"
+            android:backgroundTint="#C84F41"
+            android:text="Calcular"
             android:textColor="#FFFFFF" />
->>>>>>> Stashed changes
 
         <TextView
             android:id="@+id/textMsg"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-<<<<<<< Updated upstream
+
             android:text="Ainda não sei qual é a melhor."
-=======
-            android:text="@string/txtResult"
-            android:textColor="@color/corResult"
->>>>>>> Stashed changes
-            android:textSize="16sp" />
+            android:textColor="#1E7627"
+            android:textSize="25sp" />
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

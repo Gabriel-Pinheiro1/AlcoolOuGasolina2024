@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#273A03</color>
+    <color name="txtTitle">#975AA9</color>
+    <color name="corCalcular">#C84F41</color>
+    <color name="corResult">#975AA9</color>
+    <color name="corSwitch">#BD84E5</color>
+</resources>

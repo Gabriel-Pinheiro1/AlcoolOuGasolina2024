@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Com qual combustível?</string>
+    <string name="_75">75%</string>
+    <string name="title">Gasolina o Alcohol?</string>
+    <string name="txtGasolina">Precio de la gasolina</string>
+    <string name="txtAlcool">Precio de la Alcohol</string>
+    <string name="txtCalcular">Calcular</string>
+    <string name="txtResult">Aun no se cual es mejor</string>
+</resources>
